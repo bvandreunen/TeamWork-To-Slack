@@ -1,13 +1,14 @@
 <?php
 
-  // $fp = fopen( __DIR__ . '/log.txt', 'a');
-  // fwrite($fp, var_export($_REQUEST, 1));
-  // fwrite($fp, var_export($_SERVER, 1));
-  // fwrite($fp, "\n---------------------------\n");
-  // fclose($fp);
+  # Your Teamwork URL
+  define( 'TEAMWORK_URL', 'yourcompany.teamwork.com' );
 
-  // if( ! strstr( $_SERVER['HTTP_USER_AGENT'], 'TeamworkPM' ) )
-  //   exit;
+  # Your Teamwork API Key
+  define( 'TEAMWORK_API_KEY', 'word0000word' );
 
-  define( 'TW_API_KEY', '' );
+  # The Slack Channel you want to recieve notifications in
+  define( 'SLACK_CHANNEL', 'general' );
+
+  # The Slack Incoming webhook URL
   define( 'SLACK_WEBHOOK', '' );
+

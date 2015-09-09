@@ -9,10 +9,7 @@ class SlackNotification {
   public $username = 'Super Interactive';
   public $link = '';
 
-  public function __construct()
-  {
-
-  }
+  public function __construct() {}
 
   public function send()
   {

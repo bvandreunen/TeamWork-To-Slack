@@ -8,25 +8,8 @@
       "email": "bastiaan@superinteractive.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "package",
-      "package": {
-        "name": "TeamWorkPmPhpApi",
-        "version": "1.0.6",
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/loduis/TeamWorkPmPhpApi/archive/v1.0.6.zip"
-        },
-        "autoload": {
-          "psr-4": {"TeamWorkPm\\": "src/"}
-        }
-      }
-    }
-  ],
   "require": {
-    "php": ">=5.4",
-    "TeamWorkPmPhpApi": "*"
+    "rossedman/teamwork": "~1.0"
   }
 
 }
